@@ -13,10 +13,15 @@
     <h1>Hello!</h1>
     <h2>Quadratic Equation Solver</h2>
     <p>Please put coefficients a, b and c:</p>
-    a: <input type="text" name="a" required>
-    b: <input type="text" name="b" required>
-    c: <input type="text" name="c" required><br><br>
+    <form id="form">
+    a: <input type="text" name="input_a" value="1" required>
+    b: <input type="text" name="input_b" value="-2" required>
+    c: <input type="text" name="input_c" value="-20" required>
+    <br>
+    <br>
     <input type="submit" value="Solve">
+    </form>
+    <p id="result"></p>
     <script src="index.js"></script>
         </div>
      <hr class="topline">
